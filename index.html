@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FG ADVICE S.R.L. - Presentazione</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(-45deg, #1e3a8a, #2563eb, #60a5fa, #1e40af);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    h1 {
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .button {
+      background: white;
+      color: #1e3a8a;
+      padding: 0.75rem 1.5rem;
+      font-weight: 600;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    .button:hover {
+      background: #1e3a8a;
+      color: white;
+    }
+    .top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      z-index: 1000;
+    }
+    .top-bar img {
+      height: 40px;
+    }
+    .home-link {
+      background: #1e3a8a;
+      color: white;
+      padding: 0.4rem 0.8rem;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <img src="./LOGO_BIANCO-removebg.png" alt="FG Advice Logo">
+    <a class="home-link" href="index.html">Home</a>
+  </div>
+  <div style="margin-top: 60px;"></div>
+  <h1>Benvenuto nella Presentazione</h1>
+  <a class="button" href="slide_02.html">Inizia la Presentazione</a>
+</body>
+</html>
